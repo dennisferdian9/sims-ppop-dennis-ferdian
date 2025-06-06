@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+body {
+  @apply text-gray-700;
+  @apply overflow-x-hidden
+}
+
+.remove-scroll::-webkit-scrollbar {
+  display: none;
+}
