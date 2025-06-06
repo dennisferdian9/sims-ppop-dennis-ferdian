@@ -12,7 +12,7 @@ export default defineConfig(({mode}) => {
     ],
     base: '/',
     server: {
-      port: env.VITE_PORT 
+      port: env.VITE_PORT ?? 3000
     },
     resolve: {
        alias: {
